@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <style>
+    /* Add your CSS code here */
+  </style>
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Jaysheel Golani</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Jaysheel Golani</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/image_1.png" alt="Jaysheel Golani profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Jaysheel Golani</h1>
+      <p class="section__text__p2">Data Science Enthusiast</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="downloadResume()">Download Resume</button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/jaysheel-golani/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Jaysheel11'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get to Know</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/image_2.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="text-container">
+          <p>
+            I am a discipline-driven individual interested in the field of data science. My focus extends beyond web development, encompassing various subfields such as machine learning, deep learning, and more. I am self-taught and constantly seek to enhance my skills in these areas. Additionally, I am a state skating champion and have represented Gujarat at the national level.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Technical Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Proficient</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python Libraries and Frameworks</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Data Visualization using Seaborn and Matplotlib</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Machine Learning</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Deep Learning</h3>
+                <pIntermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Web Scraping using BeautifulSoup</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MySQL</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Natural Language Processing</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Computer Vision</h3>
+                <p>Intermediate</p```html
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Azure Services</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Power BI</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/hranalyticsdashboard.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Trying to Figure Out Why Your Firm's Attrition Rate Is High?</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="openPowerBIDashboard()">Open Dashboard</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Jaysheel11/HR_Analytics_Dashboard'">GitHub</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/movierecomm.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Confused About Which Movie to Watch? I Got You</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Jaysheel11/Movie_Recommendation_System'">GitHub</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/manwithhands.jpg" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Too Shy to Show Your Face?</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Jaysheel11/Real-time-face-blurring'">GitHub</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+
+  <section id="project-list">
+    <p class="section__text__p1">View All Projects</p>
+    <h1 class="title">Project List</h1>
+    <table class="project-table">
+      <thead>
+        <tr>
+          <th>Project Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="#">Diwali Sales Analysis</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Breast Cancer Detection</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Library Management System</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">IPL 2023 Analysis</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Mine vs Rock Detection</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Medick</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Web Scraping</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Edge Detection with Canny Algorithm (OpenCV Python)</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Image Convolution with Various Kernels</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Python vs Rust Comparison</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p>jaysheelgolani@outlook.com</p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/jaysheel-golani/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>&#169; 2023 Jaysheel Golani. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    function openPowerBIDashboard() {
+      var dashboardUrl = "./assets/powerbiproject.pbix";
+      window.open(dashboardUrl, "_blank");
+    }
+
+    function downloadResume() {
+      var resumeUrl = "./assets/JaysheelGolani.pdf";
+      var link = document.createElement("a");
+      link.href = resumeUrl;
+      link.download = "JaysheelGolani_Resume.pdf";
+      link.click();
+    }
+
+    function toggleMenu() {
+      // Add your code to toggle the mobile menu here
+    }
+  </script>
+</body>
+</html>
